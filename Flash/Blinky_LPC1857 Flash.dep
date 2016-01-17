@@ -1,51 +1,0 @@
-Dependencies for Project 'Blinky', Target 'LPC1857 Flash': (DO NOT MODIFY !)
-F (.\Blinky.c)(0x5382F64E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627801E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\LPC18xx.h)(0x55016ACC)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\system_LPC18xx.h)(0x50A08B74)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board\Board_LED.h)(0x53BB5A92)
-F (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Boards\Keil\MCB1800\Common\LED_MCB1800.c)(0x5382F91E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\led_mcb1800.o --omf_browse .\flash\led_mcb1800.crf --depend .\flash\led_mcb1800.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\SCU_LPC18xx.h)(0x5581437C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\GPIO_LPC18xx.h)(0x5582A3FA)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board\Board_LED.h)(0x53BB5A92)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56249546)()
-F (RTE\CMSIS\RTX_Conf_CM.c)(0x5502C67E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\rtx_conf_cm.o --omf_browse .\flash\rtx_conf_cm.crf --depend .\flash\rtx_conf_cm.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627801E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556D6924)
-F (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\GPIO_LPC18xx.c)(0x5582A3FA)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\gpio_lpc18xx.o --omf_browse .\flash\gpio_lpc18xx.crf --depend .\flash\gpio_lpc18xx.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\LPC18xx.h)(0x55016ACC)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\system_LPC18xx.h)(0x50A08B74)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\GPIO_LPC18xx.h)(0x5582A3FA)
-F (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\SCU_LPC18xx.c)(0x5581437C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\scu_lpc18xx.o --omf_browse .\flash\scu_lpc18xx.crf --depend .\flash\scu_lpc18xx.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\LPC18xx.h)(0x55016ACC)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\system_LPC18xx.h)(0x50A08B74)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver\SCU_LPC18xx.h)(0x5581437C)
-F (RTE\Device\LPC1857\RTE_Device.h)(0x54F825EE)()
-F (RTE\Device\LPC1857\startup_LPC18xx.s)(0x519F182A)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "LPC18xx SETA 1"--list .\flash\startup_lpc18xx.lst --xref -o .\flash\startup_lpc18xx.o --depend .\flash\startup_lpc18xx.d)
-F (RTE\Device\LPC1857\system_LPC18xx.c)(0x538D6EB2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I D:\ARMprj\tmp\Blinky\RTE-I D:\ARMprj\tmp\Blinky\RTE\Device\LPC1857-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board-D__UVISION_VERSION="515" -D_RTE_ -DLPC18xx-o .\flash\system_lpc18xx.o --omf_browse .\flash\system_lpc18xx.crf --depend .\flash\system_lpc18xx.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\LPC18xx.h)(0x55016ACC)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C27DF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include\system_LPC18xx.h)(0x50A08B74)
