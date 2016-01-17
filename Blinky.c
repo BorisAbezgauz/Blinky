@@ -9,7 +9,7 @@
  *---------------------------------------------------------------------------*/
 
 #include "cmsis_os.h"
-#include "LPC18xx.h"
+//#include "LPC18xx.h"
 #include "Board_LED.h"
 
 osThreadId tid_phaseA;                  /* Thread id of thread: phase_a      */
